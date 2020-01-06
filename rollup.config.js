@@ -7,7 +7,7 @@ export default {
     format: 'cjs',
     file: `dist/rollup.bundle.js`,
   },
-  treeshake: false,
+  treeshake: true,
   plugins: [
     babel(),
     terser(),

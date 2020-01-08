@@ -1,4 +1,6 @@
 class Math {
+  static math = global.math
+
   add(a, b) {
     return a + b
   }
